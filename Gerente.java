@@ -12,7 +12,7 @@ public class Gerente extends Funcionario {
 
     public void autentificacao(int senha){
 
-        if(this.senha == getSenha()){
+        if(senha == getSenha()){
             System.out.println("Acesso liberado");
         }else{
             System.out.println("Acesso negado");

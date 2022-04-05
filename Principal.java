@@ -18,7 +18,7 @@ public class Principal {
         System.out.println(g.bonificacao());
         System.out.println(g.getSalario() + g.bonificacao());
         System.out.println(g.getDepartamento());
-        g.autentificacao(12323);
+        g.autentificacao(12332);
 
 
         System.out.println();
