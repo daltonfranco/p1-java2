@@ -31,7 +31,8 @@ public class Funcionario{
     }
 
     public double bonificacao(){
-        return 1200.0;
+        double conta = (10/100) * this.getSalario();
+        return conta;
     }
 
     
